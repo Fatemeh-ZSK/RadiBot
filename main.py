@@ -6,7 +6,7 @@ def scheduled_delivery():
     # ... (keep your existing code)
 
 def main():
-    bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
+    bot_token = os.getenv('7929490695:AAEf81hJYm6ShnZO2eBTgaGOp9LV4G-roZE')
     
     # Run scheduled delivery if triggered by cron
     if os.getenv('GITHUB_ACTIONS') == 'true':
