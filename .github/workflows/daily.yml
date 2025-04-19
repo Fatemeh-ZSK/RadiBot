@@ -25,7 +25,7 @@ jobs:
         
     - name: Run article delivery
       env:
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        TELEGRAM_BOT_TOKEN: ${{ 7929490695:AAEf81hJYm6ShnZO2eBTgaGOp9LV4G-roZE }}
+        TELEGRAM_CHAT_ID: ${{ secrets.RadiAiBot }}
       run: |
         python main.py
